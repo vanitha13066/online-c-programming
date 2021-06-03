@@ -1,0 +1,66 @@
+string:  A string is a sequence
+       of characters terminated with 
+       a null character
+       
+initialization:
+Arrays:  int/float/char
+		datatype arrayname[size];
+Strings:
+Declaration:
+		char stringname[size]
+		size-- optional
+       
+2 types:
+By using character array:
+
+char s1[5]={'h','a','i','\0'};
+char s1[]={'h','a','i','\0'};
+
+2.by using string literal
+char s[6]="hello";
+char s[]="hello";
+
+"     " ----characters
+"123"-----
+"@#$"-----
+
+String Handling functions
+
+#include<string.h>
+-------------------------
+1.strlen(): To find the length of a string
+syntax:  strlen(string_name)
+
+2.strcpy(): To copy the one string to another string
+syntax:  strcpy(s_1,s_2)
+
+3.strcat(): To join the two strings
+syntax: strcat(s_1,s_2)
+
+4.strcmp(): Compares the two strings
+syntax: if 2 strings are equal then it returns '0'.Otherwise it
+		returns any other value
+		
+5.strlwr(): To convert the string uppercase to 
+			lowercase
+Syntax:   strlwr(string_name)
+
+5.strupr(): To convert the string lowercase to 
+			uppercase
+Syntax:   strupr(string_name)
+
+6.strrev(): To reverse a string
+			strrev(string_name)
+
+
+
+
+
+
+
+
+
+
+
+
+
