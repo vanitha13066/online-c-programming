@@ -1,0 +1,20 @@
+Structures in c:
+================
+Structure is a user defined datatype
+It is a collection of different data type
+to create a new data type.
+ 
+For example, you can define your custom type
+for stroing student record containing name,age,
+marks creating structure type will allow you to
+handle all properties
+
+syntax of structure
+
+struct structure_name
+{
+	member1_declaration;
+	member2_declaration;
+	.......
+	......
+};

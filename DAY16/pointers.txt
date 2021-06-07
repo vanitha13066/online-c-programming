@@ -1,0 +1,15 @@
+pointers
+========
+The pointer in C is a variable that stores
+adress of another variable.
+A pointer can also be used to refer to another
+function
+
+How to use pointer in c
+
+int v=0
+v is equal to 0
+&v=   is equal to memmory address of v
+*v= is equal to value of memory adress
+* refers to pointer
+& refers to refernce
